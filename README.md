@@ -14,7 +14,7 @@ Typical usage of boot sequence would be to assign it to PCU before leaving VAB/S
 ```
 parameter env.
 env:add("init", lex(
-  "prg", "example.ks"
+  "prg", "example.ks",
   "p1", "parameter 1",
   "p2", "parameter 2"
 )).
